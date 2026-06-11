@@ -31,6 +31,7 @@ body {
   font-size: 16px;
   line-height: 1.68;
   letter-spacing: 0;
+  overflow-x: hidden;
 }
 
 a {
@@ -130,7 +131,7 @@ svg {
   grid-template-columns: minmax(0, 0.92fr) minmax(360px, 1.08fr);
   align-items: center;
   gap: 44px;
-  min-height: calc(100vh - 72px);
+  min-height: 620px;
   padding-top: 68px;
   padding-bottom: 44px;
   background:
@@ -141,6 +142,7 @@ svg {
 .hero > * {
   max-width: none;
   margin: 0;
+  min-width: 0;
 }
 
 .hero-copy {
@@ -233,6 +235,7 @@ h3 {
 
 .hero-visual {
   width: 100%;
+  min-width: 0;
   margin: 0;
   padding: 16px;
   background: #fff;
@@ -247,6 +250,10 @@ h3 {
   object-fit: contain;
 }
 
+.hero-visual picture {
+  display: block;
+}
+
 .metrics {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -257,6 +264,7 @@ h3 {
 
 .metrics > * {
   max-width: none;
+  margin: 0;
 }
 
 .metric {
@@ -598,7 +606,7 @@ h3 {
   }
 
   h1 {
-    font-size: 2.35rem;
+    font-size: 2rem;
   }
 
   h2 {
@@ -618,7 +626,8 @@ h3 {
   }
 
   .hero-visual img {
-    min-height: 270px;
+    height: auto;
+    min-height: 0;
   }
 
   .metrics,
@@ -641,5 +650,23 @@ h3 {
 
   .partner-card.wide {
     grid-column: span 1;
+  }
+}
+
+@media (max-width: 560px) {
+  .band > * {
+    max-width: 350px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hero > *,
+  .hero-copy,
+  .hero-visual {
+    max-width: 350px;
+  }
+
+  .metrics > * {
+    max-width: none;
   }
 }

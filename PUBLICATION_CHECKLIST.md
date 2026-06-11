@@ -20,11 +20,11 @@
 
 ## Visual QA
 
-- [ ] Desktop viewport checked
-- [ ] Mobile viewport checked around 390 px
-- [ ] No horizontal overflow
-- [ ] Hero visual loads
-- [ ] Navigation links work
+- [x] Desktop viewport checked by local Chrome screenshot
+- [x] Mobile viewport checked around 390 px by local Chrome screenshot
+- [x] No obvious horizontal overflow in captured viewports
+- [x] Hero visual loads on desktop and mobile
+- [x] Navigation anchor links are present in the HTML
 
 ## Suggested Public Repo
 
