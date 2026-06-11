@@ -2,11 +2,13 @@
 
 ## Current State
 
-- Artifact state: publish-ready local package
+- Artifact state: published
 - Sensitivity profile: public-review, noindex enabled
 - Local path: `C:\Users\Kevin\Documents\Codex\2026-06-11\codex-ai-agent\outputs\familyfin-h2-work-blueprint-public`
 - Local git branch: `main`
-- Latest local commit: `73755f9 Refine responsive visual proposal`
+- GitHub repo: `https://github.com/Kevin-Yeh-egroup/familyfin-h2-work-blueprint-public`
+- Stable production URL: `https://familyfin-h2-work-blueprint-public.vercel.app/`
+- Vercel project: `familyfin-h2-work-blueprint-public`
 
 ## Verification Completed
 
@@ -19,13 +21,14 @@
 - Desktop screenshot: `verification/desktop-home.png`
 - Mobile screenshot: `verification/mobile-home.png`
 
-## Pending External Approval
+## Publication Completed
 
-- [ ] Create public GitHub repo
-- [ ] Push local `main` branch
-- [ ] Create or link dedicated Vercel project
-- [ ] Deploy Vercel Production from `main`
-- [ ] Verify Production URL, `robots.txt`, meta robots, and `X-Robots-Tag`
+- [x] Create public GitHub repo
+- [x] Push local `main` branch
+- [x] Create and link dedicated Vercel project
+- [x] Connect Vercel project to GitHub repo
+- [x] Deploy Vercel Production
+- [x] Verify Production URL, `robots.txt`, meta robots, and `X-Robots-Tag`
 
 ## Proposed External Names
 

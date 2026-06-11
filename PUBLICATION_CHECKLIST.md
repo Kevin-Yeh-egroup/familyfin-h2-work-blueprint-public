@@ -7,16 +7,16 @@
 - [x] No raw colleague-needs source text
 - [x] No account, deployment, analytics, or backend credentials
 - [x] No unverified performance metrics
-- [ ] Kevin approves public GitHub repository creation
-- [ ] Kevin approves Vercel public deployment
+- [x] Kevin approved public GitHub repository creation
+- [x] Kevin approved Vercel public deployment
 
 ## Noindex Controls
 
 - [x] HTML meta robots set to `noindex,nofollow,noarchive`
 - [x] `robots.txt` disallows crawling
 - [x] `vercel.json` sets `X-Robots-Tag`
-- [ ] Production URL header verified after deployment
-- [ ] Production `robots.txt` verified after deployment
+- [x] Production URL header verified after deployment
+- [x] Production `robots.txt` verified after deployment
 
 ## Visual QA
 
@@ -31,3 +31,4 @@
 - Repo slug: `familyfin-h2-work-blueprint-public`
 - Vercel project slug: `familyfin-h2-work-blueprint-public`
 - Production branch: `main`
+- Stable production URL: `https://familyfin-h2-work-blueprint-public.vercel.app/`
